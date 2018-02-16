@@ -1,0 +1,199 @@
+%% set w=s,t=2
+\documentclass[11pt]{report}
+
+\usepackage{fullpage}
+\usepackage{array}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\renewcommand{\labelenumii}{\alph{enumii}}
+\renewcommand{\labelenumiii}{\roman{enumiii}}
+\newcommand{\heading}[1]{{\subsubsection*{\hfill#1\hfill\phantom{tab}}}}
+\newcommand{\PreserveBackslash}[1]{\let\ttemp=\\#1\let\\=\ttemp}
+\let\PBS=\PreserveBackslash
+\newcommand{\lefttblcol}{\PreserveBackslash\raggedright\hspace{0pt}}
+\newcommand{\righttblcol}{\PBS\raggedleft\hspace{0pt}}
+\newcommand{\centretblcol}{\PBS\centering\hspace{0pt}}
+\newcolumntype{P}[1]{>{\lefttblcol}p{#1}}
+
+\makeatletter
+\renewcommand{\chapter}{\@startsection{chapter}{1}{0mm}{\baselineskip}{0.5\baselineskip}{\centering\sc\large}}
+\renewcommand{\section}{\@startsection{subsection}{2}{0mm}{-\baselineskip}{0.5\baselineskip}{\normalfont\large\bf}}
+\makeatother
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\renewcommand{\thesection}{Chapter \arabic{chapter}}
+
+\title{Constitution of the student club: Drag and Drop}
+
+
+\author{https://github.com/DragandDrop-wsu}
+
+\date{\today}
+
+%\date{Assented on <date>; date of commencement <date>.}
+
+\setcounter{tocdepth}{1}
+
+
+\begin{document}
+	\maketitle
+	
+	
+	
+	% \noindent
+	% To be read in light of the following amendments:
+	
+	% \begin{tabular}{l}
+	%     Amendment 1\\
+	%     Amendment 2\\
+	%     Amendment 3\\
+	% \end{tabular}
+	
+	\noindent
+	
+	\tableofcontents
+	
+	\newpage
+	\noindent
+	To introduce a Constitution for the Drag and Drop student club and guideline for proceedures.
+	
+	\chapter{Founding provisions  (\S1--4)}
+	
+	\section{Drag And Drop}
+	
+	Drag and Drop, stylized and henceforth referred to as DAD, is a student run group founded on the following values:
+	\begin{enumerate}
+		\item Creating a bridge between STEM and non-STEM students.
+		\item Promoting the dignity, and achievements of the STEM field.
+		\item Creating a safe space where those with questions about STEM can ask freely and openly.
+	\end{enumerate}
+	
+	\section{Supremacy of the Constitution}
+	
+	This document henceforth known as the Constitution, sets forth the supreme law of DAD; when required (through means of misconduct or review) the law will be reviewed in context of it any absence of clarification is strictly unwanted and should be amended
+	
+	
+	\section{Membership \& Eligibility}
+	\begin{enumerate}
+		\item All members must initially be a student (of any kind) at Wright State University.
+		\item All members must initially have two recommendations from two other members of DADs.
+		\item All members are- 
+		\begin{enumerate}
+			\item equally entitled to the rights, privileges and benefits of
+			membership; and
+			\item equally subject to the duties and responsibilities of citizenship.
+		\end{enumerate}
+		\item Membership is offered or maintained regardless of any prejudices including but not limited to age, race, religion, and veteran status. 
+	\end{enumerate}
+	
+	\section{DAD official logo}
+	
+	See git repository, and the file: dad-logo.svg
+	
+	\chapter{Roles}
+	\section*{Creation of Roles}
+	Roles may only be created by the President.
+	Secondary roles are not recognised by this section of the Constitution.
+	As it stands current and future the roles set here are immutable without agreement of those currently filling the role.
+	\begin{enumerate}
+		\item President
+		\item Vice-President
+		\item Treasurer
+		\item Secretary
+		\item Officers
+	\end{enumerate}
+	\chapter{Description of Roles (\S 5-10)}
+	
+	%% \heading{ Matters (\S 7-8)}
+	
+	\section*{Description of the President}
+	\begin{enumerate}
+		\item Preside at all meetings.
+		\item In a matter of a tie, votes along with the vice-president to break the tie.
+		\item Represents the club in front of the Wright State student body.
+		\item Has the ability to assign a role that has had prolonged absence and has been considered vacant by all of the vice-president, officers, secretary, and treasurer.
+		\item Do other presidential matters.
+	\end{enumerate}
+	
+	\section*{Description of the Vice-President}
+	\begin{enumerate}
+		\item In a matter of absence of the President, the vice-president assumes all powers of the President.
+		\item In a matter of a tie, votes along with the president to break the tie.
+	\end{enumerate}
+	
+	\section*{Description of the Treasurer}
+	\begin{enumerate}
+		\item Raises capital or current expenditure for the club.
+		\item Holds and controls all funds.
+		\item Responsible for tabulating fiscal data and itemising expenditures.
+		\item Holds DAD in the exercise of its
+		legislative and executive authority in regard to any matter that may have a fiscal impact.
+	\end{enumerate}
+	
+	\section*{Description of the Secretary}
+	\begin{enumerate}
+		\item Catalogues and schedules the meetings.
+		\item Keeps a record of all members, past and current.
+		\item Ensures each meeting has a sign-in roster, which will be tabulated to represent attendance rate and then recorded.
+		\item Assists to the needs of the treasurer during itemisation of a meeting.
+	\end{enumerate}
+	
+	\section*{Description of the Officers}
+	\begin{enumerate}
+		\item Only two officers may exist at one time.
+		\item Enforce that the Constitution is satisfied.
+		\item Reviewing and auditing the club.
+		\item Maintain the DAD community.
+	\end{enumerate}
+	
+	
+	\chapter{Meetings (\S 11)}
+	
+	
+	\begin{itemize}
+		\item Meetings must be held at least once a month.
+		\item Their attendence is strictly optional.
+		\item When the meetings shall take place will be determined by the President and Vice-President.
+	\end{itemize}
+	
+	\chapter{Voting (\S 12)}
+	
+	
+	\begin{itemize}
+		\item Amendments to the Constitution require a two-thirds majority vote of the student club.
+		\item Amendments may be vetoed by the President.
+		\item Amendments require a sign off by the Advisor.
+	\end{itemize}
+	
+	
+	\chapter{Advisor (\S 13)}
+	
+	The title of Advisor, is decreed by the six founding members of DAD.
+	When bestowed the title is maintained for the foreseeable future unless the said person is unable to fill role's duties or the person wishes to end their role as Advisor.
+	
+	\section*{The Advisor's responsibilities}
+	
+	\begin{enumerate}
+		
+		\item Maintain an awareness of the activities and programs sponsored by the student club.  
+		\item Meet on a regular basis with the leader of the student club to discuss upcoming meetings, long range plans, goals, and problems of the club.  
+		\item Attend regular meetings, executive board meetings as often as schedule allows.  
+		\item Assist in the orientation of new officers.  
+		\item Explain and clarify campus policy and procedures that apply to the club.  
+		\item Maintain contact with the Student Life Office.  
+		\item Provide direction in the area of parliamentary procedure, meeting facilitation, group building, goal setting, and program planning.
+		\item Assist the club treasurer in monitoring expenditures, fund raising activities, and corporate sponsorship to maintain an accurate and up to date account ledger.  
+		\item Inform club members of those factors that constitute unacceptable behaviour on the part of the club members, and the possible consequence of said behaviours.  
+	\end{enumerate}
+	
+	\chapter{Ratification (\S 14)}
+	
+	\section*{Ratification of the Constitution}
+	The ratification of the Constitution is hereby enacted by the President.
+	
+	\vspace*{8em}
+	
+	\hrulefill
+	
+	\hspace*{0mm}Daniel Walpole
+	
+	\hspace*{0mm}President
+\end{document}
